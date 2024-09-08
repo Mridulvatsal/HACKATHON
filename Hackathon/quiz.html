@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Maths Quiz</h1>
+        <form id="quizForm" onsubmit="calculateResult(event)">
+            <div>
+                <p>1. what is the area of circle with radius 7 units?</p>
+                <input type="radio" name="q1" value="153.86"> 153.86<br>
+                <input type="radio" name="q1" value="125.67"> 125.67<br>
+            </div>
+            <div>
+                <p>2. Solve the equation(5x-3=23)?</p>
+                <input type="radio" name="q2" value="4"> 4 <br>
+                <input type="radio" name="q2" value="8"> 8<br>
+            </div>
+            <div>
+                <p>3. What is the smallest prime number?</p>
+                <input type="radio" name="q3" value="1"> 1<br>
+                <input type="radio" name="q3" value="2"> 2<br>
+            </div>
+            <div>
+                <p>4. What is area of rectangle?</p>
+                <input type="radio" name="q4" value="(lxb)"> LxB<br>
+                <input type="radio" name="q4" value="2(l+b)"> 2(L+B)<br>
+            </div>
+            <div>
+                <p>5. What is cube of 216?</p>
+                <input type="radio" name="q5" value="5"> 5<br>
+                <input type="radio" name="q5" value="6"> 6<br>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
